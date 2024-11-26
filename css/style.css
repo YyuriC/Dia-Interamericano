@@ -1,0 +1,102 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5dc;
+    color: #4b4b4b;
+    margin: 0;
+}
+
+/* Header e navegação */
+header {
+    background-color: #006400;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem 0;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #daa520;
+}
+
+/* Main e seções */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+main h2 {
+    margin-bottom: 1rem;
+    color: #006400;
+}
+
+section {
+    text-align: left;
+    margin: 2rem auto;
+    max-width: 800px; 
+    line-height: 1.6;
+}
+
+section h2 {
+    color: #006400; 
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+section p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.video iframe{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.imagem{
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #4b4b4b;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
